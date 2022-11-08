@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="./output/tailwind.css">
 </head>
 <body class="h-screen flex items-center justify-center bg-gray-100">
-    <div class="max-w-sm bg-white mx-auto p-8 rounded-xl shadow-md space-y-2">
-      <img class="h-24 mx-auto rounded-full ring-4 ring-green-400 " src="/images/passport.jpg" 
+    <div class="max-w-sm bg-white mx-auto p-8 rounded-xl shadow-md space-y-2 sm:flex 
+    sm:items-center sm:space-x-4 sm:space-y-0">
+      <img class="h-24 mx-auto rounded-full ring-4 ring-green-400 sm:mx-0 sm:flex-shrink-0 
+      transform hover:scale-105 duration-500" src="/images/passport.jpg" 
       alt="My Passport Image" />
-      <div class="text-center space-y-2">
+      <div class="text-center space-y-2 sm:text-left">
         <div class="space-y-.5">
           <p class="text-lg text-black font-semibold">Imran Hossain</p>
           <p class="xt-gray-500 font-medium">Github Link</p>
         </div>
-        <button class="px-4 py-1 border border-purple-200 rounded-full text-sm text-purple-600 font-semibold">Visit Git</button>
+        <button class="px-4 py-1 border border-purple-200 rounded-full text-sm text-purple-600 font-semibold
+        hover:text-white hover:bg-purple-700 hover:border-transparent transform hover:scale-105 duration-500
+        focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Visit Git</button>
       </div>
     </div>
   </body>
