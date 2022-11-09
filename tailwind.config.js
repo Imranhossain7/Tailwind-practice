@@ -7,3 +7,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+// darkMode: 'media' for device preference
